@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>962</width>
+    <height>912</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Способ заказа</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>90</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Печать</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>160</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выберите тип бумаги</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>220</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Тип бумаги</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>460</y>
+     <width>291</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Внесение изменений в визитки(ФИО, Должность и т.п.)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>340</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Скругление углов</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>280</y>
+     <width>281</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Покрыть защитно декоративной плёнкой(ламинация)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>520</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Экспресс изготовление</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>400</y>
+     <width>251</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Добавить печать золотом, серебром или белым</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>580</y>
+     <width>281</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Количество разных видов ( макетов, файлов и т.п )</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>650</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Пробный образец</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>710</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Коментарии к заказу</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>820</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Общее количество визиток</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>211</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Создам дизайн по шаблону онлайн</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>0</y>
+      <width>131</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Есть готовый макет</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>110</y>
+     <width>361</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="radioButton_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Односторонняя</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_4">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>10</y>
+      <width>101</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Двусторонняя</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>240</y>
+     <width>461</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="radioButton_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Глянцевая мелованная 300 гр</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_6">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Матовая мелованная 300 гр</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>300</y>
+     <width>621</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="radioButton_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Без ламинации</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_8">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Глянцевая 30 мкм</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_9">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Матовая 30 мкм</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_10">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>10</y>
+      <width>221</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Софттач 3-мкм (латексное покрытие)</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_6">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>420</y>
+     <width>671</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="radioButton_13">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Не требуется</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_14">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Печать золотом</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_15">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Печать серебром</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_16">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>10</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Печать серебром</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_11">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>10</y>
+      <width>141</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Печать белым цветом</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_8">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>180</y>
+     <width>401</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="radioButton_17">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стандартная</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_18">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>10</y>
+      <width>181</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Дизайнерские и суперплотные</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_9">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>360</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="radioButton_19">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Не задано</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_20">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Скругление углов</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_7">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>480</y>
+     <width>711</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="radioButton_25">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Не требуется</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_26">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>271</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>У меня файл в векторном виде(pdf, ai, eps, cdr)</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_27">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>10</y>
+      <width>301</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>У меня файл в другом формате(jpg, tif, png, psd и др.)</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_10">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>540</y>
+     <width>441</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="radioButton_28">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Несколько дней (3-5 Рабочих дней)</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_29">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>10</y>
+      <width>271</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>В течении 24 часов</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_30">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>10</y>
+      <width>301</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>В течении 3 часов</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>610</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_11">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>670</y>
+     <width>361</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="radioButton_36">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Не требуется</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_37">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>191</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Пробный образец за 1000.00 руб</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>730</y>
+     <width>891</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>770</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Загрузка файлов(проверим бесплатно)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>790</y>
+     <width>101</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выбрать файлы</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_5">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>840</y>
+     <width>481</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="radioButton_38">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>50 шт.</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_39">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>10</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>100 шт.</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_40">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>10</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>200 шт</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_41">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>10</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>300 шт.</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_42">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>10</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>500 шт.</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_43">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>10</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1000 шт.</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_44">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>10</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2000 шт.</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>870</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Итого:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>870</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>0.00</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>870</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Продолжить</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
